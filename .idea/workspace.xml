@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af77a10-426a-420a-be10-ba2bcfc4e18b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercises/AverageSubarrary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/maxSumSubarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/validParentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/validSudoku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/Smallest_Subarray_Lenght_Greater_Sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +42,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.maxSumSubarray">
+  <component name="RunManager" selected="Python.Smallest_Subarray_Lenght_Greater_Sum">
     <configuration name="AverageSubarrary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Phyton" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +64,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TwoSumII" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Smallest_Subarray_Lenght_Greater_Sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Phyton" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/TwoSumII.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/Smallest_Subarray_Lenght_Greater_Sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Smallest_Subarray_Lenght_Greater_Sum" />
         <item itemvalue="Python.maxSumSubarray" />
         <item itemvalue="Python.AverageSubarrary" />
         <item itemvalue="Python.validParentheses" />
         <item itemvalue="Python.validSudoku" />
-        <item itemvalue="Python.TwoSumII" />
       </list>
     </recent_temporary>
   </component>
