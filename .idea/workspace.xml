@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af77a10-426a-420a-be10-ba2bcfc4e18b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Exercises/Smallest_Subarray_Lenght_Greater_Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/SlidingWindow/Smallest_Subarray_Lenght_Greater_Sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/maxSumSubarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/SlidingWindow/maxSumSubarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Educative/OPP/LibraryManagmentSystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Educative/SlidingWindow/LongestSubstringWMaximumKDistingChar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeetCode/TwoPointers/maxArea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +38,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Exercises/SlidingWindow" />
-      <recent name="$PROJECT_DIR$/Exercises" />
-      <recent name="$PROJECT_DIR$/Standard_library/Math_functions" />
-      <recent name="$PROJECT_DIR$/Standard_library" />
+      <recent name="$PROJECT_DIR$/Educative/OPP" />
+      <recent name="$PROJECT_DIR$/Educative/SlidingWindow" />
+      <recent name="$PROJECT_DIR$/NeetCode/TwoPointers" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/NeetCode/Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Smallest_Subarray_Lenght_Greater_Sum">
+  <component name="RunManager" selected="Python.LongestSubstringWMaximumKDistingChar">
     <configuration name="AverageSubarrary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Phyton" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +59,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/AverageSubarrary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestSubstringWMaximumKDistingChar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Phyton" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Educative/SlidingWindow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Educative/SlidingWindow/LongestSubstringWMaximumKDistingChar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,34 +172,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="validSudoku" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Phyton" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/validSudoku.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LongestSubstringWMaximumKDistingChar" />
         <item itemvalue="Python.Smallest_Subarray_Lenght_Greater_Sum" />
         <item itemvalue="Python.maxSumSubarray" />
         <item itemvalue="Python.AverageSubarrary" />
         <item itemvalue="Python.validParentheses" />
-        <item itemvalue="Python.validSudoku" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +208,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Exercises/longestConsecutiveSequence.py</url>
+          <url>file://$PROJECT_DIR$/NeetCode/Array/8-longestConsecutiveSequence.py</url>
           <line>25</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
