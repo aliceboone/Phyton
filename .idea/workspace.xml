@@ -2,10 +2,333 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af77a10-426a-420a-be10-ba2bcfc4e18b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Educative/OPP/LibraryManagmentSystem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Educative/SlidingWindow/LongestSubstringWMaximumKDistingChar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NeetCode/TwoPointers/maxArea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_begin/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_02_end/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_03_challenge/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/02_04_solution/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_begin/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/03_03_end/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_begin/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/04_04_end/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_begin/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/05_02_end/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_begin/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/06_03_end/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_begin/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/07_02_end/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_begin/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/challenge_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/mini_maze_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/mini_maze_dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/queue_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/read_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/reverse_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/08_03_end/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/grid_tracer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/grid_tracer/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/grid_tracer/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/gui_mazes/diagonal_23x23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/gui_mazes/modest_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/gui_mazes/pacman_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/gui_mazes/square_maze_25x25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/gui_mazes/walled_garden_10x10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/gui_mazes/walled_garden_20x20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/gui_mazes/wide_maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/helper_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/maze_gui_explore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/maze_gui_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/sounds/opponent-wins.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/sounds/player-wins.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise Files/GUI Code/sounds/treasure-found.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeetCode/Binary Search/1-binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeetCode/Binary Search/Search_2D_Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coebasis_array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeetCode/Array/1-contain_duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeetCode/Array/1-contain_duplicates.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +356,20 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/aliceboone/Documents/Phyton&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Educative/OPP" />
       <recent name="$PROJECT_DIR$/Educative/SlidingWindow" />
       <recent name="$PROJECT_DIR$/NeetCode/TwoPointers" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/NeetCode/Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LongestSubstringWMaximumKDistingChar">
-    <configuration name="AverageSubarrary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1-binary_search">
+    <configuration name="1-binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Phyton" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,11 +377,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeetCode/Binary Search" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/AverageSubarrary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeetCode/Binary Search/1-binary_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,7 +390,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LongestSubstringWMaximumKDistingChar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4-group_anagrams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Phyton" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,11 +398,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Educative/SlidingWindow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeetCode/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Educative/SlidingWindow/LongestSubstringWMaximumKDistingChar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeetCode/Array/4-group_anagrams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +411,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Smallest_Subarray_Lenght_Greater_Sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Phyton" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,11 +419,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise Files/GUI Code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/SlidingWindow/Smallest_Subarray_Lenght_Greater_Sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise Files/GUI Code/config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +432,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maxSumSubarray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Phyton" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +440,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise Files/04_04_begin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/SlidingWindow/maxSumSubarray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise Files/04_04_begin/dfs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maze_gui_explore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Phyton" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise Files/GUI Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise Files/GUI Code/maze_gui_explore.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,34 +495,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="validParentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Phyton" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/validParentheses.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LongestSubstringWMaximumKDistingChar" />
-        <item itemvalue="Python.Smallest_Subarray_Lenght_Greater_Sum" />
-        <item itemvalue="Python.maxSumSubarray" />
-        <item itemvalue="Python.AverageSubarrary" />
-        <item itemvalue="Python.validParentheses" />
+        <item itemvalue="Python.1-binary_search" />
+        <item itemvalue="Python.4-group_anagrams" />
+        <item itemvalue="Python.dfs" />
+        <item itemvalue="Python.maze_gui_explore" />
+        <item itemvalue="Python.config" />
       </list>
     </recent_temporary>
   </component>
