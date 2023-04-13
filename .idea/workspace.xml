@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af77a10-426a-420a-be10-ba2bcfc4e18b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NeetCode/Tree/maximun_depth_bt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NeetCode/Tree/same_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NeetCode/Tree/subtree_of_another_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeetCode/Tree/invert_binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeetCode/Tree/invert_binary_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeetCode/Tree/maximun_depth_bt.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeetCode/Tree/maximun_depth_bt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeetCode/Tree/same_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeetCode/Tree/same_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeetCode/Tree/subtree_of_another_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeetCode/Tree/subtree_of_another_tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,8 +180,8 @@
       <list>
         <item itemvalue="Python.subtree_of_another_tree" />
         <item itemvalue="Python.same_tree" />
-        <item itemvalue="Python.invert_binary_tree" />
         <item itemvalue="Python.maximun_depth_bt" />
+        <item itemvalue="Python.invert_binary_tree" />
         <item itemvalue="Python.reorder_linked_list" />
       </list>
     </recent_temporary>

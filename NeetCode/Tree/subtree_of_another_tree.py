@@ -10,6 +10,7 @@ Output: true
 Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
 Output: false
 '''
+# Definition for a binary tree node.
 
 
 class TreeNode:
@@ -20,25 +21,26 @@ class TreeNode:
 
 
 class Solution:
-    def is_subtree(self, root: TreeNode, subRoot: TreeNode) -> bool:
+    def isSubtree(self, root: TreeNode, subRoot: TreeNode) -> bool:
         if not root:
             return False
-        if self.is_same_tree(root, subRoot):
+        if self.isSameTree(root, subRoot):
             return True
-        return self.is_subtree(root.left, subRoot) or self.is_subtree(root.right, subRoot)
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
 
-    def is_same_tree(self, p: TreeNode, q: TreeNode) -> bool:
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if not p and not q:
             return True
         if not p or not q:
             return False
         if p.val != q.val:
             return False
-        return self.is_same_tree(p.left, q.left) and self.is_same_tree(p.right, q.right)
+        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
 
-# Create Tree [3,4,5,1,2], subRoot = [4,1,2]
-    root = TreeNode(3, TreeNode(4, TreeNode(1), TreeNode(2)), TreeNode(5))
-    subRoot = TreeNode(4, TreeNode(1), TreeNode(2))
-    print(is_subtree(root, subRoot))  # Output: True
+root = TreeNode(3, TreeNode(4, TreeNode(1), TreeNode(2)), TreeNode(5))
+subRoot = TreeNode(4, TreeNode(1), TreeNode(2))
+
+solution = Solution()
+print(solution.isSubtree(root, subRoot))
 
