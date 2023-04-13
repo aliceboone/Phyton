@@ -11,15 +11,25 @@ def twoSum(nums, target):
     if not nums or len(nums) == 0:
         return "nums is empty"
 
-    preMap = {}
+    hash_num = {}
     for i, n in enumerate(nums):
         diff = target - n
-        if diff in preMap:
-            return [preMap[diff], i]
-        preMap[n] = i
+        if diff in hash_num:
+            return [hash_num[diff], i]
+        hash_num[n] = i
 
 print(twoSum([], 0))
 print(twoSum([2, 7, 11, 15], 9))
 print(twoSum([2, 3, 1, 5], 7))
+
+# def two_sum(nums, target):
+#     for i in range(len(nums)):
+#         if (target - nums[i]) in nums[i + 1:]:
+#             return True
+#     return False
+#
+# print(two_sum([], 0))
+# print(two_sum([2, 7, 11, 15], 9))
+# print(two_sum([2, 3, 1, 5], 7))
 
 
