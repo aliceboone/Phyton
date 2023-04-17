@@ -8,20 +8,23 @@
 '''
 
 
-def containsDuplicates(nums):
-    if not nums or len(nums) == 0:
+class Solution(object):
+    def containsDuplicates(self, nums) -> bool:
+        if not nums or len(nums) == 0:
+            return False
+
+        hashset = set()
+
+        for n in nums:
+            if n in hashset:
+                return True
+            hashset.add(n)
         return False
 
-    hashset = set()
-
-    for n in nums:
-        if n in hashset:
-            return True
-        hashset.add(n)
-    return False
 
 
-print(containsDuplicates([]))
-print(containsDuplicates([1, 2, 3, 1]))
-print(containsDuplicates([1, 2, 3, 4]))
-print(containsDuplicates([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]))
+solution = Solution()
+print(solution.containsDuplicates([]))
+print(solution.containsDuplicates([1, 2, 3, 1]))
+print(solution.containsDuplicates([1, 2, 3, 4]))
+print(solution.containsDuplicates([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]))
