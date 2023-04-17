@@ -12,46 +12,25 @@ space complexity = O(n)
 '''
 
 
-
-def isAnagram(s, t):
-    if len(s) != len(t):
-        return False
-
-    countS = {}
-    countT = {}
-
-# build a hash for s and t
-    for i in range(len(s)):
-        countS[s[i]] = 1 + countS.get(s[i], 0)
-        countT[t[i]] = 1 + countT.get(t[i], 0)
-
-# iterate over s and check if s and an t are diff, if its different return False
-    for c in countS:
-        if countS[c] != countT.get(c, 0):
+class Solution(object):
+    def isAnagram(self, s, t):
+        if len(s) != len(t):
             return False
-    return True
-#
-#
-# print(isAnagram("poc", "cop"))
-# print(isAnagram("car", "tap"))
-# print(isAnagram("true", "tru"))
-# print(isAnagram("anagram", "nagaram"))
 
+        countS = {}
+        countT = {}
 
-# def isAnagram(s, t):
-#     if len(s) != len(t):
-#         return False
-#
-#     sortS = ''.join(sorted(s))
-#     sortT = ''.join(sorted(t))
-#
-#     if sortS != sortT:
-#         return False
-#     return True
-#
-# print(isAnagram("true", "tru"))
-# print(isAnagram("anagram", "nagaram"))
-# print(isAnagram("car", "rat"))
+        # build a hash for s and t
+        for i in range(len(s)):
+            countS[s[i]] = 1 + countS.get(s[i], 0)
+            countT[t[i]] = 1 + countT.get(t[i], 0)
+
+        # iterate over s and check if s and an t are diff, if its different return False
+        for c in countS:
+            if countS[c] != countT.get(c, 0):
+                return False
+        return True
+
 
 # def isAnagram(s, t):
 #     if len(s) != len(t):
@@ -59,6 +38,7 @@ def isAnagram(s, t):
 #     return sorted(s) == sorted(t)
 #
 
-print(isAnagram("true", "tru"))
-print(isAnagram("anagram", "nagaram"))
-print(isAnagram("car", "rat"))
+solution = Solution()
+print(solution.isAnagram("true", "tru"))
+print(solution.isAnagram("anagram", "nagaram"))
+print(solution.isAnagram("car", "rat"))
